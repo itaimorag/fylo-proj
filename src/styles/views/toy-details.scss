@@ -1,0 +1,8 @@
+.toy-details {
+    margin-top: 30px;
+    article {
+        >* {
+            margin: 5px 0;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.main-header-container{
+
+// width: 110%;
+margin-inline-start: -10%;
+margin: auto 0;
+background-color:#1b2330;
+color: #fff;
+    .main-header{
+       max-width: 1280px;
+        margin: 0 auto;
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 73px;
+    
+}
+.right-header{
+    display: flex;
+    font-size: 16px;
+    gap: 55px;
+    color: #adb0b4;
+}
+    }
+}

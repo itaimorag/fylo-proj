@@ -1,0 +1,191 @@
+.home-page-container {
+
+    background-color: #1b2330;
+    color: #fff;
+    width: 100%;
+    padding-top: 75px;
+
+    .home-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1230px;
+        margin: 0 auto;
+    }
+
+    .illustration-intro-img {
+        width: 720px;
+        height: 534px;
+        margin: 0 auto;
+        padding-bottom: 36px;
+    }
+
+    .after-img-header {
+        font-size: 40px;
+        width: 734px;
+        height: 114px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .after-img-second-header {
+        padding-top: 38px;
+        font-size: 20px;
+        width: 589px;
+        height: 88px;
+        font-weight: 400;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+    .get-started-btn {
+        width: 280px;
+        height: 56px;
+        background-image: linear-gradient(#51c9d5, #3daccf);
+        border-radius: 100px;
+        border: none;
+        color: #fff;
+        font-size: 17px;
+        margin-bottom: 150px;
+    }
+
+    .main-text-area {
+        margin: 0 160px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 95px;
+
+        div {
+            width: 348px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            // margin-bottom: 95px;
+            img {
+                // width: 85px;
+                height: 85px;
+                object-fit: contain;
+                margin-bottom: 28px;
+            }
+
+            .mini-header {
+                margin-bottom: 14px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 14px;
+                text-align: center;
+                line-height: 21px;
+            }
+        }
+    }
+
+    .after-main-content {
+        .stay-productive-area {
+            display: flex;
+            margin-top: 135px;
+
+            .illustration-stay-productive-img {
+                width: 615px;
+                height: 464px;
+            }
+
+            .stay-productive-content {
+                width: 563px;
+                margin-top: 115px;
+
+                .stay-productive-header {
+                    font-size: 40px;
+                    width: 506px;
+                    font-weight: 700;
+                    line-height: 50px;
+                    height: 99px;
+                    // margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    height: 46px;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                }
+            }
+
+            .link-to-how-works {
+                width: 166px;
+                display: flex;
+                border-bottom: 1px solid #51c9d5;
+                justify-content: space-between;
+                color: #51c9d5;
+
+                img {
+                    width: 15px;
+                }
+            }
+        }
+
+        .reviews {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 180px;
+            gap: 40px;
+
+            .review-container {
+                width: 360px;
+                height: 200px;
+                padding: 40px 25px;
+                background-color: #202a3c;
+                display: flex;
+                flex-direction: column;
+                border-radius: 5px;
+            }
+
+            .review {
+                font-size: 14px;
+                font-weight: 400;
+                width: 310px;
+                height: 80px;
+                line-height: 21px;
+            }
+
+            .review-user-details {
+                display: flex;
+margin-top: 28px;
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 8px;
+                    border-radius: 50%;
+                }
+            }
+
+            .review-user-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .user-name{
+                    font-size: 10px;
+                    font-weight: 700;
+                }
+                .user-job{
+                    font-size: 7px;
+                    font-weight: 400;
+                    color: #adb0b4;
+                }
+            }
+        }
+    }
+}
