@@ -5,16 +5,9 @@
 
 /** VIEWS **/
 @import './views/app.scss';
-@import './views/toy-app.scss';
-@import './views/dashboard.scss';
-@import './views/toy-edit.scss';
-@import './views/toy-details.scss';
 @import './views/home.scss';
 
 /** COMPONENTS **/
-@import './components/toy-list.scss';
-@import './components/toy-preview.scss';
+
 @import './components/app-header.scss';
-@import './components/custom-dropdown.scss';
-@import './components/about-modal.scss';
-@import './components/awesome-map.scss';
+@import './components/app-footer.scss';
